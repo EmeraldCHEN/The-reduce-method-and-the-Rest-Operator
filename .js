@@ -32,8 +32,8 @@ console.log(array.reduce(product, 10));  // 10 - 1 - 2 - 3 - 4 = 0
 const product1 = (function() {
   "use strict";
   return function product1(n1, n2, n3) {
-    const args = [n1, n2, n3];
-    return args.reduce((a, b) => a - b);
+      const args = [n1, n2, n3];
+      return args.reduce((a, b) => a - b);
   };
 })();
 
@@ -44,7 +44,7 @@ console.log(product1(1, 2, 3)); //1-2-3 = -4
 const product1_1 = (function () {
   "use strict";
   return function product1_1(...n) {
-    return n.reduce((a, b) => a - b);
+      return n.reduce((a, b) => a - b);
   };
 })();
 
@@ -58,23 +58,12 @@ console.log(product1_1(1, 2, 3, 4)); //1-2-3-4 = -8
 const product2 = (function() {
   "use strict";
   return function product2(...n) {
-    return n.reduce((a, b) => a - b, 4);
+      return n.reduce((a, b) => a - b, 4);
   };
 })();
 console.log(product2(1, 2, 3)); //4-1-2-3 = -2
 
 console.log(product2(1, 2, 3, 4)); //4-1-2-3-4 = -6
-
-
-
-
-
-
-
-
-
-
-
 
 
 

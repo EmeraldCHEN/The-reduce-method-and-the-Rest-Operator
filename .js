@@ -61,6 +61,9 @@ const product2 = (function() {
       return n.reduce((a, b) => a - b, 4);
   };
 })();
+
+console.log(product2()); // 4
+
 console.log(product2(1, 2, 3)); //4-1-2-3 = -2
 
 console.log(product2(1, 2, 3, 4)); //4-1-2-3-4 = -6

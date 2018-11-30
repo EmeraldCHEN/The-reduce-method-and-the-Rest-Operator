@@ -54,6 +54,7 @@ console.log(product1_1(1, 2, 3, 4)); //1-2-3-4 = -8
 
 /**************************   Demo #4    *********************************/
 
+// Provide an initial value as the second argument to reduce(), the result would look like this:
 
 const product2 = (function() {
   "use strict";

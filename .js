@@ -39,7 +39,7 @@ const product1 = (function() {
 
 console.log(product1(1, 2, 3)); //1-2-3 = -4
 
-// The code aboce can be written as such
+// The code above can be written as such
 
 const product1_1 = (function () {
   "use strict";
